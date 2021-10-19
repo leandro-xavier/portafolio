@@ -1,6 +1,8 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom'
 import {Container, Nav, Navbar} from 'react-bootstrap'
+import {DarkModeToggle} from './darkmode/DarkModeToggle';
+
 
 
 const Navigation = () => {
@@ -15,7 +17,7 @@ const Navigation = () => {
                                     <Nav.Link as={NavLink} to="/">Home</Nav.Link>
                                     <Nav.Link as={NavLink} to="/proyects">Proyects</Nav.Link>
                                      {/*investigar como hacer que se previsualize el curriculum en otra pagina y que tenga opcion de descargarse en el navegador */}    <Nav.Link as={NavLink} to="/curriculum">Curriculum</Nav.Link>
-                                    
+                                 <DarkModeToggle/>
                                 </Nav>
                             </Navbar.Collapse>
                 </Container>
