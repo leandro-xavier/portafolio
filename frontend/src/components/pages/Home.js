@@ -1,14 +1,14 @@
 import React from 'react';
-import Navigation from '../components/Navigation';
-import { PrincipalImage } from '../components/PrincipalImage';
-//import './home.css'
+import Navigation from '../Navbar/Navigation';
+//import { PrincipalImage } from '../Cards/PrincipalImage';
+
 
 const Home = () => {
     return (
         <div>
             <Navigation/>
                 <div className="principal-home">
-                    <PrincipalImage/>
+                   {/* <PrincipalImage/>*/}
                 </div>
         </div>
     );

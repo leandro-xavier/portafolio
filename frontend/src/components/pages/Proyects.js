@@ -1,6 +1,6 @@
 import React from 'react';
-import Navigation from '../components/Navigation';
-import {CardList} from '../components/CardList'
+import Navigation from '../Navbar/Navigation';
+import {CardList} from '../Cards/CardList'
 
 
 const Proyects = () => {
