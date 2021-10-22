@@ -1,14 +1,14 @@
 import React from 'react';
 import Navigation from '../Navbar/Navigation';
-//import { PrincipalImage } from '../Cards/PrincipalImage';
+import { CardHomeOne } from '../Cards/CardHomeOne';
 
 
 const Home = () => {
     return (
-        <div>
+        <div className="nav__cardhome">
             <Navigation/>
                 <div className="principal-home">
-                   {/* <PrincipalImage/>*/}
+                    <CardHomeOne/>
                 </div>
         </div>
     );

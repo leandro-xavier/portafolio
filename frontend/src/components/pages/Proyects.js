@@ -1,6 +1,5 @@
 import React from 'react';
 import Navigation from '../Navbar/Navigation';
-import {CardList} from '../Cards/CardList'
 
 
 const Proyects = () => {
@@ -12,7 +11,7 @@ const Proyects = () => {
             <div>
                 <h1>Proyectos</h1>
             </div>
-            <CardList/>
+       
         </div>
     );
 }

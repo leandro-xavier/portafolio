@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faXRay } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {  faBars } from '@fortawesome/free-solid-svg-icons';
 import {DarkModeToggle} from '../darkmode/DarkModeToggle';
 
 const Navigation = () => {
@@ -13,7 +13,7 @@ const Navigation = () => {
     <div className="header">
       <div className="logo-nav">
         <div className="logo-container">
-          <a href="/">
+          <a className="a" href="/">
           Leandro-xavier
           </a>
         </div>
@@ -39,9 +39,9 @@ const Navigation = () => {
       </ul>
       <div className="mobile-menu" onClick={handleClick}>
         {click ? (
-         <FontAwesomeIcon icon={faXRay} />
+         <FontAwesomeIcon icon={faBars} />
         ) : (
-            <FontAwesomeIcon icon={faXRay} />
+            <FontAwesomeIcon icon={faBars} />
         )}
       </div>
     </div>
