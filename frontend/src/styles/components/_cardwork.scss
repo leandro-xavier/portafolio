@@ -1,12 +1,15 @@
 .card-container {
+    display: inline-block;
     position: relative;
-    width: 50%;
+    width: 30%;
+    margin: 10px;
+    padding: auto;
 }
 
 .image {
     opacity: 1;
     display: block;
-    width: 100%;
+    width: 30%;
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
