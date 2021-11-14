@@ -7,7 +7,8 @@ export  const CardHomeOne = () => {
     return (
         <div className="card-list" >
             {/*<img className="card-image" src={image} alt="card-imagen" />*/}
-            <h1 className="h1">Hello! My name is Leandro Mariscal </h1>
+            <h1 className="h1">Hola, Mi nombre es Leandro Mariscal, te invito a que veas todos mis proyectos que estan aqui, desliza</h1>
+            <img className="img" src="img/profile.jfif" alt="" />
         </div>
     );
 }

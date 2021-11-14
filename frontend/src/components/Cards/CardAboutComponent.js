@@ -1,26 +1,30 @@
-import React from 'react'
+import React from 'react';
 
 export const CardAboutComponent = () => {
     return (
         <div className="container-about">
-            <h1>About me</h1>
-            <p>i am engenier mecatronict and programmer</p>
+            <h1 style={{textAlign:"center"}}>Acerca de mi </h1>
+            <p style={{textAlign:"center"}}>Soy un ingeniero mecatrónico que le gusta las tecnologias web, programar y desarrollar nuevos proyectos </p>
             <div>
-                <h2>social networks</h2>
                 <div className="technologies">
-                    <ul>
-                        <li><i className="fab fa-react"></i></li>
-                        <li><i className="fab fa-bootstrap"></i></li>
-                        <li><i className="el el-css"></i></li>
-                        <li><i className="icon-html"></i></li>
+                <h2 className="h2">developers tools</h2>
+                    <ul className="ul">
+                        <li><img src="/img/react-brands.svg" alt="" style={{width:"50px"}}/></li>
+                        <li><img src="/img/bootstrap-brands.svg" alt="" style={{width:"50px"}}/></li>
+                        <li><img src="/img/sass-brands.svg" alt="" style={{width:"50px"}}/></li>
+                        <li><img src="/img/html5-brands.svg" alt="" style={{width:"50px"}}/></li>
+                        <li><img src="/img/js-brands.svg" alt="" style={{width:"50px"}}/></li>
+                        <li><img src="/img/css3-brands.svg" alt="" style={{width:"50px"}}/></li>
+                 
                     </ul>
                 </div>
 
                 <div className="social">
-                    <ul>
-                        <li><span className="ai-linkedin"></span></li>
-                        <li><span className="ai-github"></span></li>
-                        <li><i className="el el-blogger"></i></li>                    
+                <h2 className="h2">social networks</h2>
+                    <ul className="ul">
+                        <li className="li"><img src="/img/linkedin-brands.svg" alt="" style={{width:"50px"}}/></li>
+                        <li className="li"><a href="https://github.com/leandro-xavier"><img src="/img/github-brands.svg" alt="" style={{width:"50px"}}/></a></li> 
+                                    
                     </ul>
                 </div>
             </div>

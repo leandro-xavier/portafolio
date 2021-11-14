@@ -13,9 +13,9 @@ const Navigation = () => {
     <div className="header">
       <div className="logo-nav">
         <div className="logo-container">
-          <a className="a" href="/">
-          Leandro-xavier
-          </a>
+          <li className="option" >
+            <a className="a" href="/">Leandro xavier</a>
+          </li>
         </div>
 
         <ul className={click ? "nav-options active" : "nav-options"}>
@@ -26,11 +26,9 @@ const Navigation = () => {
             <a className="a" href="/">Curriculum</a>
           </li>
           <li className="option" onClick={closeMobileMenu}>
-            <a className="a" href="/">BLOG</a>
+            <a className="a" href="/">Blog</a>
           </li>
-          <li className="option mobile-option" onClick={closeMobileMenu}>
-            <a href="/">Redes</a>
-          </li>
+    
        
         </ul>
       </div>

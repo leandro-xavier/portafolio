@@ -9,8 +9,8 @@ export const CardWorkComponent = () => {
             <div className="container-work">
 
                 <div>
-                    <h1>Works</h1>
-                    <p>All proyects create for my portfolio</p>
+                    <h1 style={{textAlign:"center"}}>Proyectos</h1>
+                    <p style={{textAlign:"center"}}>Algunos de los proyectos </p>
                 </div>
 
                 <div className="card-container">
