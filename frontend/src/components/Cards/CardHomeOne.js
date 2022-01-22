@@ -10,8 +10,7 @@ export  const CardHomeOne = () => {
             {/*<img className="card-image" src={image} alt="card-imagen" />*/}
           {/* <h1 className="h1">Hola, Mi nombre es Leandro Mariscal, te invito a que veas todos mis proyectos que estan aqui, desliza<span>&#160;</span> </h1>*/ }  
           <img className="img" src="img/profile.jfif" alt="" />
-            <p className='h1'>hola, soy leandro.</p>
-            
+            <p className='p'>hola, soy leandro.</p>
         </div>
     );
 }

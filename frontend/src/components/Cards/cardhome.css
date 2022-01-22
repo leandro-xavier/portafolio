@@ -1,42 +1,13 @@
-.maquina-escribir {
-    background: transparent;
-    position: relative;
-}
-
-body {
-    min-height: 100vh;
-    display: grid;
-    place-items: center;
-}
-
-
-/*.maquina-escribir::after {
-    content: "";
-    border-left: 3px solid black;
-    background-image: url("https://images.unsplash.com/photo-1554302891-c98c2d1e0d3a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=928&q=80");
-    right: 0;
-    height: 100%;
-    position: absolute;
-    animation: maquinaescribir 4s infinite alternate steps(42);
-}
-
-@keyframes maquinaescribir {
-    from {
-        width: 100%;
-    }
-    to {
-        width: 0;
-    }
-}*/
-
-p {
+.p {
     font-size: 2rem;
-    font-family: 'Courier New', Courier, monospace;
-    border-right: .1em solid #18BDEC;
+    border-right: .15em solid white;
     width: 0;
     overflow: hidden;
     white-space: nowrap;
-    animation: typing 4s steps(20), blink 1s steps(1) infinite;
+    animation: typing 4s alternate infinite steps(18), blink 1s steps(1) infinite;
+    margin-top: 200px;
+    margin-left: 200px;
+    display: inline-block;
 }
 
 @keyframes blink {
@@ -47,9 +18,9 @@ p {
 
 @keyframes typing {
     from {
-        width: 100%;
+        width: 0;
     }
     to {
-        width: 0;
+        width: 20%;
     }
 }

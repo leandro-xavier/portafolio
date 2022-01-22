@@ -1,8 +1,6 @@
-
 import React, { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faBars } from '@fortawesome/free-solid-svg-icons';
-import {DarkModeToggle} from '../darkmode/DarkModeToggle';
 
 const Navigation = () => {
   const [click, setClick] = useState(false);
@@ -32,9 +30,6 @@ const Navigation = () => {
        
         </ul>
       </div>
-      <ul className="signin-up">
-        <DarkModeToggle/>
-      </ul>
       <div className="mobile-menu" onClick={handleClick}>
         {click ? (
          <FontAwesomeIcon icon={faBars} />
