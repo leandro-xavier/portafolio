@@ -2,8 +2,8 @@
     display: inline-block;
     position: relative;
     width: 30%;
-    margin: 10px;
-    padding: auto;
+    margin: 12px;
+    border: solid white 1px;
 }
 
 .image {
@@ -39,9 +39,10 @@
     height: 660px;
 }
 
-.content-hover {
-    background-color: black;
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
+.boton {
+    border: 1px solid white;
+    margin-top: 20px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
 }
