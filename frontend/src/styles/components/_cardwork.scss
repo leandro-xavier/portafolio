@@ -1,37 +1,7 @@
 .card-container {
     display: inline-block;
-    position: relative;
     width: 30%;
-    margin: 12px;
-    border: solid white 1px;
-}
-
-.image {
-    opacity: 1;
-    display: block;
-    width: 30%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-}
-
-.content-intern {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.card-container:hover .image {
-    opacity: 0.3;
-}
-
-.card-container:hover .content-intern {
-    opacity: 1;
+    margin: 20px;
 }
 
 .work-component {
@@ -40,9 +10,12 @@
 }
 
 .boton {
-    border: 1px solid white;
     margin-top: 20px;
     align-items: center;
     align-content: center;
     text-align: center;
+}
+
+.proyectos {
+    margin-bottom: 50px;
 }

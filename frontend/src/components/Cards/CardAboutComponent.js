@@ -3,8 +3,12 @@ import React from 'react';
 export const CardAboutComponent = () => {
     return (
         <div className="container-about">
-            <h1 style={{textAlign:"center"}}>Acerca de mi </h1>
-            <p style={{textAlign:"center"}}>Soy un ingeniero mecatrónico que le gusta las tecnologias web, programar y desarrollar nuevos proyectos </p>
+            <div className='text'>
+            <h1  data-aos="zoom-out-down">Acerca de mi </h1>
+            <p  data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">Soy un ingeniero mecatrónico que le gusta las tecnologias web, programar y desarrollar nuevos proyectos </p>
+            </div>
             <div>
                 <div className="technologies">
                 <h2 className="h2">developers tools</h2>

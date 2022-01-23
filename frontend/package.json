@@ -23,6 +23,7 @@
     "react-awesome-button": "^6.5.1",
     "react-bootstrap": "^1.6.1",
     "react-dom": "^17.0.2",
+    "react-hover-animation": "^2.1.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "responsive-navbar-react": "^1.2.1",

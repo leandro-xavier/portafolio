@@ -9,6 +9,12 @@
     border-radius: 25px;
 }
 
+.text {
+    height: 130px;
+    margin-top: 40px;
+    text-align: center;
+}
+
 li {
     text-decoration: none;
     list-style: none;
@@ -20,10 +26,6 @@ li {
     display: inline-block;
     padding: 2px;
     margin-right: 5px;
-}
-
-.container-about {
-    border: solid black 1px;
 }
 
 .technologies {
