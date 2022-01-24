@@ -4,12 +4,12 @@
     text-align: center;
 }
 
-.container-skill {
-    border: solid white 1px;
+.text {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .card {
-    border: solid white 1px;
     width: 11%;
     height: 160px;
     float: left;
@@ -22,4 +22,16 @@
 
 .icono {
     font-size: 120px;
+}
+
+@media (max-width: 858px) {
+    .img-ico {
+        width: 60px;
+    }
+    .card {
+        width: 18%;
+        height: 100px;
+        float: left;
+        margin: 10px
+    }
 }

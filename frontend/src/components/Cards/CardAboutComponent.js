@@ -3,7 +3,7 @@ import ProgressBar from "@ramonak/react-progress-bar";
 
 export const CardAboutComponent = () => {
     return (
-        <div className="container-about">
+        <div id='tecnologias' className="container-about">
             <div className='text'>
                 <h1 data-aos="zoom-out-down">Mis Tecnologías</h1>
             </div>

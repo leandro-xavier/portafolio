@@ -9,17 +9,31 @@ export const CardWorkComponent = () => {
     const imagePanawood = 'img/panawood-image.png'
 
     const redireccionarPagina = () => {
-        window.setTimeout( abrirURL, 1 ); // 3 segundos
+        window.setTimeout( abrirURL, 1 ); // 1 segundos
     };
     
-    function abrirURL(){
-      //Abrir URL que necesites
-      window.open("https://leandro-xavier.github.io/anime-app-v/")
-      console.log("Han pasado 3 segundos");
+    const redireccionarPaginaDos = () => {
+        window.setTimeout( abrirURLDos, 1 ); // 1 segundos
     };
+
+    const redireccionarPaginaTres = () => {
+        window.setTimeout( abrirURLTres, 1 ); // 1 segundos
+    };
+
+    function abrirURL(){
+      window.open("https://anime-app-final.herokuapp.com/")
+    };
+
+    function abrirURLDos(){
+        window.open("https://leandro-xavier.github.io/PanaWood/")
+      };
+
+      function abrirURLTres(){
+        window.open("https://life-app-01.herokuapp.com/life/")
+      };
     return (
         <div>
-            <div className="container-work">
+            <div id='proyectos' className="container-work">
 
                 <div data-aos="zoom-in" className='proyectos'>
                     <h1 style={{textAlign:"center"}} >Proyectos</h1>
@@ -30,7 +44,7 @@ export const CardWorkComponent = () => {
                         <Card       
                             style={{
                                 backgroundImage: `url(${imageAnime})`,
-                                width: '400px',
+                                width: '360px',
                                  height: '230px',
                                 cursor: 'pointer',
                                 backgroundSize: 'cover'
@@ -38,8 +52,8 @@ export const CardWorkComponent = () => {
                             onClick={redireccionarPagina}
                         />
                         <Animated animationIn="flash" animationOut="fadeOut" isVisible={true} animationInDuration={Infinity}>
-                            <div className='boton'>
-                                <Button/>
+                            <div className='boton' onClick={redireccionarPagina}>
+                                <Button />
                             </div>
                         </Animated>
                     </div>
@@ -49,15 +63,15 @@ export const CardWorkComponent = () => {
 
                                 style={{
                                     backgroundImage: `url(${imagePanawood})`,
-                                    width: '400px',
+                                    width: '360px',
                                     height: '230px',
                                     cursor: 'pointer',
                                     backgroundSize: 'cover',
                                 }}
-                                onClick={redireccionarPagina}
+                                onClick={redireccionarPaginaDos}
                         />
                          <Animated animationIn="flash" animationOut="fadeOut" isVisible={true} animationInDuration={Infinity}>
-                            <div className='boton'>
+                            <div className='boton' onClick={redireccionarPaginaDos}>
                                 <Button/>
                             </div>
                         </Animated>
@@ -68,15 +82,15 @@ export const CardWorkComponent = () => {
                         <Card
                                     style={{
                                         backgroundImage: `url(${imageLife})`,
-                                        width: '400px',
+                                        width: '360px',
                                         height: '230px',
                                         cursor: 'pointer',
                                         backgroundSize: 'cover',
                                     }}
-                                    onClick={redireccionarPagina}
+                                    onClick={redireccionarPaginaTres}
                             />
                             <Animated animationIn="flash" animationOut="fadeOut" isVisible={true} animationInDuration={Infinity}>
-                                <div className='boton'>
+                                <div className='boton'  onClick={redireccionarPaginaTres}>
                                     <Button/>
                                 </div>
                             </Animated>

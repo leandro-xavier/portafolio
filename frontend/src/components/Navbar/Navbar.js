@@ -21,12 +21,12 @@ export const Navbar = () => {
                 </li>
                 <li>
                     <AnimationWrapper>
-                        <a href="#">Proyectos</a>
+                        <a href="#proyectos">Proyectos</a>
                     </AnimationWrapper>
                 </li>
                 <li>
                     <AnimationWrapper>
-                        <a href="#">Habilidades</a>
+                        <a href="#tecnologias">Tecnologias</a>
                     </AnimationWrapper>
                 </li>
                <li>
@@ -36,7 +36,7 @@ export const Navbar = () => {
                </li>
                <li>
                    <AnimationWrapper>
-                        <a href="#">Contacto</a>
+                        <a href="#contacto">Contacto</a>
                    </AnimationWrapper>
                </li>
                
