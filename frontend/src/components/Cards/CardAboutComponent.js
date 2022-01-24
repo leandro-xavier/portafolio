@@ -1,35 +1,91 @@
 import React from 'react';
+import ProgressBar from "@ramonak/react-progress-bar";
 
 export const CardAboutComponent = () => {
     return (
         <div className="container-about">
             <div className='text'>
-            <h1  data-aos="zoom-out-down">Acerca de mi </h1>
-            <p  data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">Soy un ingeniero mecatrónico que le gusta las tecnologias web, programar y desarrollar nuevos proyectos </p>
+                <h1 data-aos="zoom-out-down">Mis Tecnologías</h1>
             </div>
-            <div>
-                <div className="technologies">
-                <h2 className="h2">developers tools</h2>
-                    <ul className="ul">
-                        <li><img src="/img/react-brands.svg" alt="" style={{width:"50px"}}/></li>
-                        <li><img src="/img/bootstrap-brands.svg" alt="" style={{width:"50px"}}/></li>
-                        <li><img src="/img/sass-brands.svg" alt="" style={{width:"50px"}}/></li>
-                        <li><img src="/img/html5-brands.svg" alt="" style={{width:"50px"}}/></li>
-                        <li><img src="/img/js-brands.svg" alt="" style={{width:"50px"}}/></li>
-                        <li><img src="/img/css3-brands.svg" alt="" style={{width:"50px"}}/></li>
-                 
-                    </ul>
+            <div className='container-skill'>
+                <div className='card' data-aos="fade-down-right" data-aos-duration="500">
+                <img className='img-ico' src="img/icons8-html-5.svg" alt="" />
+                    <ProgressBar data-aos="fade-down-right" completed={90} animateOnRender={true} transitionDuration='3s' transitionTimingFunction='ease'/>;
                 </div>
 
-                <div className="social">
-                <h2 className="h2">social networks</h2>
-                    <ul className="ul">
-                        <li className="li"><img src="/img/linkedin-brands.svg" alt="" style={{width:"50px"}}/></li>
-                        <li className="li"><a href="https://github.com/leandro-xavier"><img src="/img/github-brands.svg" alt="" style={{width:"50px"}}/></a></li> 
-                                    
-                    </ul>
+                <div className='card' data-aos="fade-down-right" data-aos-duration="700">
+                <img className='img-ico' src="img/icons8-css3.svg" alt="" />
+                    <ProgressBar data-aos="fade-down-right" completed={95} animateOnRender={true} transitionDuration='3s' transitionTimingFunction='ease'/>;
+                </div>
+
+                <div className='card' data-aos="fade-down-right"  data-aos-duration="900">
+                <img className='img-ico' src="img/icons8-javascript.svg" alt="" />
+                    <ProgressBar data-aos="fade-down-right" completed={95} animateOnRender={true} transitionDuration='3s' transitionTimingFunction='ease'/>;
+                </div>
+
+                <div className='card' data-aos="fade-down-right"  data-aos-duration="1100">
+                <img className='img-ico' src="img/icons8-node-js.svg" alt="" />
+                    <ProgressBar data-aos="fade-down-right" completed={90} animateOnRender={true} transitionDuration='3s' transitionTimingFunction='ease'/>;
+                </div>
+
+                <div className='card' data-aos="fade-down-right"  data-aos-duration="1300">
+                <img className='img-ico' src="img/icons8-mongodb.svg" alt="" />
+                    <ProgressBar data-aos="fade-down-right" completed={80} animateOnRender={true} transitionDuration='3s' transitionTimingFunction='ease'/>;
+                </div>
+
+                <div className='card' data-aos="fade-down-right"  data-aos-duration="1500">
+                <img className='img-ico' src="img/icons8-reaccionar-nativo.svg" alt="" />
+                    <ProgressBar data-aos="fade-down-right" completed={80} animateOnRender={true} transitionDuration='3s' transitionTimingFunction='ease'/>;
+                </div>
+
+                <div className='card' data-aos="fade-down-right"  data-aos-duration="1700">
+                <img className='img-ico' src="img/icons8-sass.svg" alt="" />
+                    <ProgressBar data-aos="fade-down-right" completed={90} animateOnRender={true} transitionDuration='3s' transitionTimingFunction='ease'/>;
+                </div>
+
+                <div className='card' data-aos="fade-down-right"  data-aos-duration="1900">
+                <img className='img-ico' src="img/icons8-heroku.svg" alt="" />
+                    <ProgressBar data-aos="fade-down-right" completed={92} animateOnRender={true} transitionDuration='3s' transitionTimingFunction='ease'/>;
+                </div>
+
+                <div className='card' data-aos="fade-down-right"  data-aos-duration="2100">
+                <img className='img-ico' src="img/icons8-firebase.svg" alt="" />
+                    <ProgressBar data-aos="fade-down-right" completed={60} animateOnRender={true} transitionDuration='3s' transitionTimingFunction='ease'/>;
+                </div>
+
+                <div className='card' data-aos="fade-down-right"  data-aos-duration="2300">
+                <img className='img-ico' src="img/icons8-git.svg" alt="" />
+                    <ProgressBar data-aos="fade-down-right" completed={60} animateOnRender={true} transitionDuration='3s' transitionTimingFunction='ease'/>;
+                </div>
+
+                <div className='card' data-aos="fade-down-right"  data-aos-duration="2500">
+                <img className='img-ico' src="img/icons8-redux.svg" alt="" />
+                    <ProgressBar data-aos="fade-down-right" completed={60} animateOnRender={true} transitionDuration='3s' transitionTimingFunction='ease'/>;
+                </div>
+
+                <div className='card' data-aos="fade-down-right"  data-aos-duration="2700">
+                <img className='img-ico' src="img/icons8-oreja.svg" alt="" />
+                    <ProgressBar data-aos="fade-down-right" completed={60} animateOnRender={true} transitionDuration='3s' transitionTimingFunction='ease'/>;
+                </div>
+
+                <div className='card' data-aos="fade-down-right"  data-aos-duration="2900">
+                <img className='img-ico' src="img/icons8-json-web-token.svg" alt="" />
+                    <ProgressBar data-aos="fade-down-right" completed={60} animateOnRender={true} transitionDuration='3s' transitionTimingFunction='ease'/>;
+                </div>
+
+                <div className='card' data-aos="fade-down-right"  data-aos-duration="3000">
+                <img className='img-ico' src="img/icons8-material-ui.svg" alt="" />
+                    <ProgressBar data-aos="fade-down-right" completed={60} animateOnRender={true} transitionDuration='3s' transitionTimingFunction='ease'/>;
+                </div>
+
+                <div className='card' data-aos="fade-down-right"  data-aos-duration="3000">
+                <img className='img-ico' src="img/icons8-ngp.svg" alt="" />
+                    <ProgressBar data-aos="fade-down-right" completed={60} animateOnRender={true} transitionDuration='3s' transitionTimingFunction='ease'/>;
+                </div>
+
+                <div className='card' data-aos="fade-down-right"  data-aos-duration="3000">
+                <img className='img-ico' src="img/icons8-paypal.svg" alt="" />
+                    <ProgressBar data-aos="fade-down-right" completed={60} animateOnRender={true} transitionDuration='3s' transitionTimingFunction='ease'/>;
                 </div>
             </div>
         </div>
