@@ -1,4 +1,4 @@
-import './App.css';
+
 import Routes from './routes/Routes';
 import './styles/styles.scss'
 
